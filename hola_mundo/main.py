@@ -9,9 +9,8 @@ urls = (
     '/detalles_productos','mvc.controllers.productos.detalles_productos.DetallesProductos',
     '/insertar_productos','mvc.controllers.productos.insertar_productos.InsertarProductos',
 )
+
 app = web.application(urls, globals())
-
-
 
 if __name__ == "__main__":
     app.run()

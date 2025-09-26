@@ -1,9 +1,11 @@
 import web
 
+render = web.template.render('mvc/views/')
+
 class Index:
 
     def __init__(self):
         pass
 
     def GET(self):
-        return 'Hello my MVC!'
+        return render.index()
