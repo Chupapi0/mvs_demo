@@ -1,9 +1,9 @@
 import web
 
-class Index:
+class ListaUsuarios:
 
     def __init__(self):
         pass
 
     def GET(self):
-        return 'Hello my MVC!'
+        return 'Hola usuario, esta esu lista'
